@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import './SCSS/config';
+@import './SCSS/InputList';
+@import './SCSS/expenses';
+@import './SCSS/detailExpenses';
+
+* {
+  margin: 10px 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-stack;
+}
+
+.App {
+  #title {
+    font-weight: 400;
+    color: $pink-color;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #title {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}
